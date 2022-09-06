@@ -5,18 +5,25 @@
 		</title>
 	</head>
 	<style>
-		.header {
+		body {
+			margin: 0;
+		}
+
+		nav {
 			overflow: hidden;
+			position: fixed;
+			width: 100%;
 			padding: 20px 10px;
-			background: #1abc9c;
-			color: white;
+			background: #009BCE;
+			color: black;
+			font-family: 'Century Gothic';
 		}
 
 		.header a {
 			float: left;
-			color: whitesmoke;
+			color: black;
 			text-align: center;
-			padding: 12px;
+			padding: 8px;
 			text-decoration: none;
 			font-size: 30px; 
 			line-height: 25px;
@@ -26,25 +33,51 @@
 		.header a.weird-fishes {
 			background-color: white;
 			color: black;
-			font-family:cursive;
+			font-family: 'Calibri', 'cursive';
+		}
+
+		.header a.secret {
+			font-size: xx-small;
 		}
 
 		.more-header {
-			float: left;
-			color:black;
+			float: right;
+			color: black;
+		}
+
+		.main {
+			height: 100vh;
+			background-image: url("eric.png");
+			background-size: cover;
+			background-repeat: no-repeat;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.welcome {
+			background-color: maroon;
+			color: white;
+			font-size: 64px;
+			font-family: 'Calibri';
+			padding: 10px 10px
 		}
 
 	</style>
 	<html>
 		<body>
-			<div class="header">
+			<nav class="header">
 				<a class="weird-fishes" href="index.html">Eric Nunes</a>
 				<div class="more-header">
-					<a href="const.html">hi my name is eric</a>
-					<a href="const.html">thanks for checking in</a>
+					<a href="resume.html">Resume</a>
+					<a href="service.html">Service</a>
+					<a href="projects.html">Projects</a>
+					<a href="about-me.html">About Me</a>
+					<a class="secret" href="secret.html">Secret Link</a>
 				</div>
+			</nav>
+			<div class="main">
+				<h1 class="welcome">Welcome.</h1>
 			</div>
-			<h4> here's a cool song: </h4>
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/cTsPTfusbBs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</body>
 	</html>
