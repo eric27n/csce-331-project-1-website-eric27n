@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    background-color: #AAAAAA;
+}
+
+nav {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    padding: 20px 10px;
+    background: #009BCE;
+    color: black;
+    font-family: 'Century Gothic';
+}
+
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 30px; 
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.header a.weird-fishes {
+    background-color: white;
+    color: black;
+}
+
+.header a.weird-fishes:hover {
+    background-color: #DDDDDD;
+}
+
+.header a.secret {
+    font-size: xx-small;
+}
+
+.nav-button:hover {
+    background-color: #6caec4;
+}
+
+.more-header {
+    float: right;
+    color: black;
+}
+
+.main {
+    height: 100vh;
+    background-image: url("../csce-331-project-1-website-eric27n/media/eric.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome {
+    background-color: maroon;
+    color: white;
+    font-size: 64px;
+    font-family: 'Calibri';
+    padding: 10px 10px
+}
+
+.resume-main {
+    height: 100vh;
+    background-image: url("../csce-331-project-1-website-eric27n/media/resume-but-it-is-a-png-now.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume-big {
+    background-color: white;
+    color: black;
+    font-size: 64px;
+    font-family: 'Calibri';
+    padding: 10px 10px
+}
+
+.resume-info {
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    font-family: 'Calibri';
+}
+
+.resume-text {
+    font-size: 18px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
